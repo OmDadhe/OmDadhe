@@ -1,7 +1,7 @@
 <div>
 
 <!-- Header Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=140&section=header&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=180&section=header&text=%20Om%20Dadhe&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=35" />
 
 
 <a href="https://git.io/typing-svg">
