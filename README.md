@@ -1,34 +1,24 @@
-<div align="center">
+<div>
 
 <!-- Header Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Om%20Dadhe&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Data%20Analyst%20by%20skill.%20Business%20Analyst%20by%20mindset.&descAlignY=60&descColor=a78bfa&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=140&section=header&animation=fadeIn" />
+
+
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=500&size=25&duration=4500&pause=500&color=FFFFFF&width=600&lines=Hello%2C+I'm+Om+Dadhe;Data+and+Business+Analyst." />
+</a>
 
 </div>
 
----
+<div>
 
-<div align="center">
-
-```
-Data Analyst by skill, Business Analyst by mindset.
-I build models, forecast revenue, predict churn,
-and occasionally argue with Excel.
-
-Focused on turning numbers into narratives
-executives actually care about.
-
-Because data without strategy is just decoration.
-```
-
+![About Me](assets/terminal.gif)
 </div>
 
 
+##  Tech Stack
 
----
-
-## 🛠️ Tech Stack
-
-### 📊 Data & Analytics
+### Data & Analytics
 ![Python](https://img.shields.io/badge/Python-0f0c29?style=for-the-badge&logo=python&logoColor=a78bfa)
 ![SQL](https://img.shields.io/badge/SQL-0f0c29?style=for-the-badge&logo=postgresql&logoColor=a78bfa)
 ![Power BI](https://img.shields.io/badge/Power%20BI-0f0c29?style=for-the-badge&logo=powerbi&logoColor=F2C811)
@@ -38,7 +28,7 @@ Because data without strategy is just decoration.
 ![NumPy](https://img.shields.io/badge/NumPy-0f0c29?style=for-the-badge&logo=numpy&logoColor=a78bfa)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-0f0c29?style=for-the-badge&logo=scikit-learn&logoColor=F7931E)
 
-### 💻 Engineering (Because I'm that guy)
+### Engineering (Because I'm that guy)
 ![Java](https://img.shields.io/badge/Java-0f0c29?style=for-the-badge&logo=openjdk&logoColor=a78bfa)
 ![JavaScript](https://img.shields.io/badge/JavaScript-0f0c29?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![TypeScript](https://img.shields.io/badge/TypeScript-0f0c29?style=for-the-badge&logo=typescript&logoColor=3178C6)
@@ -46,16 +36,14 @@ Because data without strategy is just decoration.
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-0f0c29?style=for-the-badge&logo=springboot&logoColor=6DB33F)
 ![React](https://img.shields.io/badge/React-0f0c29?style=for-the-badge&logo=react&logoColor=61DAFB)
 
-### ☁️ Cloud & DevOps
+### Cloud & DevOps
 ![AWS](https://img.shields.io/badge/AWS-0f0c29?style=for-the-badge&logo=amazonaws&logoColor=FF9900)
 ![Azure](https://img.shields.io/badge/Azure-0f0c29?style=for-the-badge&logo=microsoftazure&logoColor=0078D4)
 ![Docker](https://img.shields.io/badge/Docker-0f0c29?style=for-the-badge&logo=docker&logoColor=2496ED)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-0f0c29?style=for-the-badge&logo=githubactions&logoColor=a78bfa)
 
----
 ### Featured Projects
 
----
 
 **eCommerce Cart Abandonment — Business Analysis**
 
@@ -91,7 +79,7 @@ Production-grade financial analytics platform for SaaS businesses, spanning raw 
 
 ---
 
-## 💼 Experience Snapshot
+##  Experience Snapshot
 
 | Role | Company | Period | Key Impact |
 |------|---------|--------|------------|
@@ -101,36 +89,34 @@ Production-grade financial analytics platform for SaaS businesses, spanning raw 
 
 ---
 
-## 📊 DA/BA Arsenal
+## DA / BA Arsenal
 
-```
-Revenue Forecasting        ████████████████████  Expert
-Churn Prediction           ███████████████████░  Advanced
-SQL & Data Wrangling        ████████████████████  Expert
-Power BI Dashboards        ██████████████████░░  Advanced
-Tableau Storytelling       ██████████████████░░  Advanced
-Statistical Analysis       ███████████████████░  Advanced
-Visual Thinking            ████████████████████  Expert
-Stakeholder Communication  ████████████████████  Expert
-```
+| Capability                   | Operational Context |
+|------------------------------|---------------------|
+| Revenue Forecasting          | When leadership asks “what happens next quarter?” |
+| Churn Prediction             | When retention becomes a board-level concern |
+| SQL & Data Wrangling         | When raw data refuses to cooperate |
+| Power BI Dashboards          | When KPIs need executive visibility |
+| Tableau Storytelling         | When numbers need narrative structure |
+| Statistical Analysis         | When intuition requires validation |
+| Visual Thinking              | When complexity needs simplification |
+| Stakeholder Communication    | When data must survive a meeting |
 
----
 
-## 📫 Let's Connect
+## Let's Connect
 
-<div align="center">
+<div>
 
 [![Email](https://img.shields.io/badge/omdadhe07@gmail.com-0f0c29?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:omdadhe07@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0f0c29?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://linkedin.com/in/omdadhe)
-[![GitHub](https://img.shields.io/badge/GitHub-0f0c29?style=for-the-badge&logo=github&logoColor=ffffff)](https://github.com/omdadhe)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0f0c29?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://linkedin.com/in/contactom)
+[![GitHub](https://img.shields.io/badge/GitHub-0f0c29?style=for-the-badge&logo=github&logoColor=ffffff)](https://github.com/OmDadhe)
 
 </div>
 
----
 ## Employer?
 
 > [!IMPORTANT]
-> [Download my resume](https://drive.google.com/your-resume-link-here)
+> [Download my resume](https://drive.google.com/file/d/1v12amYH0KQLCOCtfPRv6Q25zmqnGy4AJ/view?usp=sharing)
 
 <div align="center">
 
