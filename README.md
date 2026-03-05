@@ -116,7 +116,7 @@ Production-grade financial analytics platform for SaaS businesses, spanning raw 
 ## Employer?
 
 > [!IMPORTANT]
-> [Download my resume](https://drive.google.com/file/d/1kFnb7Pn4UyZVC8UJaMLnPX2qXMVSkj5C/view?usp=sharing)
+> [Download my resume](https://drive.google.com/file/d/1LN-n0WwL50jO9bFXi4W2tipiOPTljDiU/view?usp=sharing)
 
 <div align="center">
 
