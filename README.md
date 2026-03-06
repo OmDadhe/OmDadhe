@@ -83,7 +83,7 @@ Production-grade financial analytics platform for SaaS businesses, spanning raw 
 
 | Role | Company | Period | Key Impact |
 |------|---------|--------|------------|
-| 🧩 PM Intern | MRM Global | Sept 2025 – Present | AI workflow automation, SQL-driven user insights, product roadmapping |
+| 🧩 Product Analyst Intern | MRM Global | Sept 2025 – Present | AI workflow automation, SQL-driven user insights, product roadmapping |
 | ⚙️ Backend Dev Intern | LoomyLabs | May – Jul 2025 | Node.js microservices, PostgreSQL optimization, AWS CI/CD |
 | 💻 Software Engineer Intern | Eduaccess | Dec 2024 – Apr 2025 | ATS in Java, RESTful APIs, Agile delivery |
 
