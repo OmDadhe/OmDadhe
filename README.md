@@ -123,6 +123,6 @@ Production-grade financial analytics platform for SaaS businesses, spanning raw 
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer&animation=fadeIn" />
 
-*"Data without strategy is just decoration."* — Om Dadhe
+*"Data without strategy is just decoration."* 
 
 </div>
