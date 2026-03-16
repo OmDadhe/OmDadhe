@@ -1,7 +1,7 @@
 <div>
 
 <!-- Header Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=180&section=headerfontColor=ffffff&animation=fadeIn&fontAlignY=35" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:FFE0C3,50:FFB7A5,100:5A67D8&height=180&section=headerfontColor=ffffff&animation=fadeIn&fontAlignY=35" />
 
 
 <a href="https://git.io/typing-svg">
@@ -121,7 +121,7 @@ Production-grade financial analytics platform for SaaS businesses, spanning raw 
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:FFE0C3,50:FFB7A5,100:5A67D8&height=120&section=footer&animation=fadeIn" />
 
 *"Data without strategy is just decoration."* 
 
