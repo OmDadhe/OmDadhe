@@ -61,7 +61,24 @@ End-to-end BA engagement on 99K+ eCommerce transactions across the full delivery
 ![BPMN](https://img.shields.io/badge/BPMN-0d1117?style=flat-square&logoColor=white)
 
 ---
+**Retail & Marketing Analytics — Customer Segmentation & Sales Intelligence**
+End-to-end analytics pipeline on 10,000 retail transactions spanning data engineering, unsupervised ML, market basket analysis, cohort modeling, and interactive dashboard delivery.
 
+- Engineered **22+ features** from raw transactional data including 11 time-based signals (quarter, season, weekend flag, delivery tier), revenue metrics (unit price, net revenue, profit ratio), and customer-level flags (repeat buyer, order count) — reducing memory footprint ~40% via dtype optimization
+- Designed and implemented a **multi-method RFM scoring system** with 10 named behavioral segments (Champions, Loyal, At-Risk, Lost, etc.) followed by **K-Means clustering (K=2–10)** validated across three metrics — Inertia, Silhouette Score, and Davies-Bouldin Index — producing 4 actionable customer tiers with full cluster profiling and marketing playbooks
+- Applied **PCA (2-component)** for cluster visualization and conducted **2-level Market Basket Analysis** using Apriori (min support 5% category, 2% sub-category; Lift > 1, Confidence ≥ 0.3) on 2,500 re-pooled transactions across 8 product sub-categories — with documented methodology to resolve the single-item basket problem inherent to synthesized data
+- Built a **cohort retention matrix** tracking monthly customer decay across all acquisition cohorts (Cohort Index 0–N), computed **CLV per customer** using a purchase-rate model over a 3-year lifespan assumption, and calculated a **CLV/CAC ratio** against a $50 acquisition cost baseline — with churn defined at >180 days inactivity
+- Delivered a **30+ KPI framework** (revenue, customer, product, CLV, retention, time-series) aggregated at monthly, category, and regional granularity, culminating in a **5-panel interactive Plotly dashboard** (28 total figures) with embedded KPI bar — all as self-contained HTML, no server required
+
+[![View Repository](https://img.shields.io/badge/View_Repository-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/OmDadhe/retail-sales-marketing-analysis)
+&nbsp;
+![Python](https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=3776AB)
+![Pandas](https://img.shields.io/badge/Pandas-0d1117?style=flat-square&logo=pandas&logoColor=150458)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-0d1117?style=flat-square&logo=scikitlearn&logoColor=F7931E)
+![Plotly](https://img.shields.io/badge/Plotly-0d1117?style=flat-square&logo=plotly&logoColor=3F4F75)
+![Kaggle](https://img.shields.io/badge/Kaggle-0d1117?style=flat-square&logo=kaggle&logoColor=20BEFF)
+
+---
 **Financial Operations Analytics — Data Analytics Platform**
 
 Production-grade financial analytics platform for SaaS businesses, spanning raw data ingestion through C-suite strategic output.
