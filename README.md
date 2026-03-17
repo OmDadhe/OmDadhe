@@ -133,8 +133,7 @@ Production-grade financial analytics platform for SaaS businesses, spanning raw 
 ## Employer?
 
 > [!IMPORTANT]
-> - [Download my resume Data Analyst Role](https://drive.google.com/file/d/15KkctxnD8AOxRyz_wJSzxfuMiA_4LJ6O/view?usp=sharing)
-> - [Download my resume Business Analyst Role](https://drive.google.com/file/d/1hO6RXBCVimwlaBeUCxzeWXh9jaeNZImd/view?usp=sharing)
+> - [Download my resume](https://drive.google.com/file/d/1rqDcgcUiwcLivzpROI8AWfQgoC5dtdep/view?usp=sharing)
 
 <div align="center">
 
