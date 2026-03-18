@@ -44,24 +44,27 @@
 
 ### Featured Projects
 
+**Developing Explainable AI for Financial Time Series Forecasting**  
 
-**eCommerce Cart Abandonment — Business Analysis**
+End-to-end XAI framework on 10 years of synthesized AAPL-like stock data spanning data synthesis, deep learning, multi-model benchmarking, and SHAP-driven explainability with interactive dashboard delivery.
 
-End-to-end BA engagement on 99K+ eCommerce transactions across the full delivery lifecycle: discovery, process modeling, KPI instrumentation, and strategic recommendation.
+- Synthesized a **2,520-day AAPL-like dataset** via Geometric Brownian Motion (μ=0.25, σ=0.30) with realistic intraday OHLCV generation, volume-volatility coupling, and deliberately injected NaN noise and duplicates — resolved through a full cleaning pipeline with OHLC logic validation and linear interpolation
+- Engineered **12 features** from raw OHLCV including 7 technical indicators (RSI-14, MACD, Bollinger Band Width, EMA-20, ATR-14, OBV, Stochastic-%K) — each chosen for financial interpretability and SHAP explainability value, with a 60-day rolling sequence window producing input tensors of shape `(samples, 60, 12)`
+- Designed and trained a **Stacked LSTM with custom Temporal Attention Layer** (128→64 units, Dropout 0.2, EarlyStopping + ReduceLROnPlateau) alongside three comparison models — **Stacked GRU**, **Bidirectional LSTM**, and **XGBoost (500 trees, L1/L2 regularization)** — evaluated across RMSE, MAE, MAPE, R², and Directional Accuracy
+- Applied **SHAP GradientExplainer** (200-sample background, 50 test samples) to the LSTM producing a full 3D SHAP tensor `(50, 60, 12)` — decomposed into 8 explanation types including beeswarm summary, waterfall, force plot, dependence plots, time-step importance line chart, and a **Feature × Time-Step Heatmap** showing which of the 12 features drove predictions at each of the 60 historical days; applied **exact TreeSHAP** to XGBoost for cross-model explainability comparison
+- Delivered a **20+ visualization framework** with explicit data stories per chart, a **5-row interactive Plotly final dashboard** (KPI indicators, all-model predictions, attention matrix, SHAP bars, metrics table), and a `reports/` folder containing auto-generated `initial_summary.txt`, `kpi_summary.txt`, and `final_summary.txt` — all outputs saved to structured Drive folders with no manual export required
 
-- Conducted structured analysis using **SQL on BigQuery**, identifying revenue volatility patterns and cart abandonment risk indicators at a **0.63% proxy rate** across transaction cohorts
-- Designed **BPMN current-state and future-state checkout process maps**, surfacing critical operational bottlenecks — delivery delay disparity of **20.85 vs 10.22 days** — with SLA-driven remediation proposals
-- Engineered **interactive Tableau dashboards** tracking Total Sales, Customer Segmentation, and Abandonment Trends, enabling preventive, data-driven decision-making at the operational level
-
-[![View Repository](https://img.shields.io/badge/View_Repository-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/OmDadhe/ecommerce-cart-abandonment-business-analysis)
+[![View Repository](https://img.shields.io/badge/View_Repository-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/OmDadhe/XAI_for_Financial-timeseries-forecasting)
 &nbsp;
-![SQL](https://img.shields.io/badge/SQL-0d1117?style=flat-square&logoColor=white)
-![BigQuery](https://img.shields.io/badge/BigQuery-0d1117?style=flat-square&logo=googlebigquery&logoColor=4285F4)
-![Tableau](https://img.shields.io/badge/Tableau-0d1117?style=flat-square&logo=tableau&logoColor=white)
-![BPMN](https://img.shields.io/badge/BPMN-0d1117?style=flat-square&logoColor=white)
+![Python](https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=3776AB)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-0d1117?style=flat-square&logo=tensorflow&logoColor=FF6F00)
+![XGBoost](https://img.shields.io/badge/XGBoost-0d1117?style=flat-square&logo=xgboost&logoColor=337733)
+![SHAP](https://img.shields.io/badge/SHAP-0d1117?style=flat-square&logo=python&logoColor=FF4B4B)
+![Plotly](https://img.shields.io/badge/Plotly-0d1117?style=flat-square&logo=plotly&logoColor=3F4F75)
 
 ---
 **Retail & Marketing Analytics — Customer Segmentation & Sales Intelligence**
+
 End-to-end analytics pipeline on 10,000 retail transactions spanning data engineering, unsupervised ML, market basket analysis, cohort modeling, and interactive dashboard delivery.
 
 - Engineered **22+ features** from raw transactional data including 11 time-based signals (quarter, season, weekend flag, delivery tier), revenue metrics (unit price, net revenue, profit ratio), and customer-level flags (repeat buyer, order count) — reducing memory footprint ~40% via dtype optimization
@@ -93,6 +96,22 @@ Production-grade financial analytics platform for SaaS businesses, spanning raw 
 ![ARIMA](https://img.shields.io/badge/ARIMA/Prophet-0d1117?style=flat-square&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/ML_Models-0d1117?style=flat-square&logo=scikitlearn&logoColor=F7931E)
 ![Power BI](https://img.shields.io/badge/Power_BI-0d1117?style=flat-square&logo=powerbi&logoColor=F2C811)
+
+---
+**eCommerce Cart Abandonment — Business Analysis**
+
+End-to-end BA engagement on 99K+ eCommerce transactions across the full delivery lifecycle: discovery, process modeling, KPI instrumentation, and strategic recommendation.
+
+- Conducted structured analysis using **SQL on BigQuery**, identifying revenue volatility patterns and cart abandonment risk indicators at a **0.63% proxy rate** across transaction cohorts
+- Designed **BPMN current-state and future-state checkout process maps**, surfacing critical operational bottlenecks — delivery delay disparity of **20.85 vs 10.22 days** — with SLA-driven remediation proposals
+- Engineered **interactive Tableau dashboards** tracking Total Sales, Customer Segmentation, and Abandonment Trends, enabling preventive, data-driven decision-making at the operational level
+
+[![View Repository](https://img.shields.io/badge/View_Repository-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/OmDadhe/ecommerce-cart-abandonment-business-analysis)
+&nbsp;
+![SQL](https://img.shields.io/badge/SQL-0d1117?style=flat-square&logoColor=white)
+![BigQuery](https://img.shields.io/badge/BigQuery-0d1117?style=flat-square&logo=googlebigquery&logoColor=4285F4)
+![Tableau](https://img.shields.io/badge/Tableau-0d1117?style=flat-square&logo=tableau&logoColor=white)
+![BPMN](https://img.shields.io/badge/BPMN-0d1117?style=flat-square&logoColor=white)
 
 ---
 
