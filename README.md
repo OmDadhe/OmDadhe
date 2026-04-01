@@ -43,7 +43,23 @@
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-0f0c29?style=for-the-badge&logo=githubactions&logoColor=a78bfa)
 
 ### Featured Projects
+**MSME Credit Invisibility Score — India's First State-Level Alternative Credit Signal Framework**
 
+India has 7.94 crore registered MSMEs generating 35 crore jobs and contributing 30% of GDP. 80% of them have never accessed formal credit, not because they are risky, but because traditional lenders cannot see them. No CIBIL score. No audited P&L. No collateral. The result is a ₹30 lakh crore credit gap (SIDBI-Crisil 2025). This project solves the signal problem, not the scoring problem — replacing CIBIL entirely with alternative digital signals.
+
+- Constructed India's first **state-level MSME Credit Invisibility Score** using **18 alternative signals** across 36 states and UTs, predicting formal credit access without any credit bureau data. The model identifies 370 lakh credit-invisible MSMEs, ranks states by exclusion severity, and generates SHAP-explainable predictions actionable for NBFCs, fintech lenders, and policymakers.
+
+- Engineered a **5-pillar alternative signal framework** — Digital Behaviour (GST compliance, e-commerce integration, UPI adoption), Infrastructure, Formalization, Credit Quality, and Macro-Resilience — where digital footprint alone explains **63.4% of variance** in formal credit access across states (SHAP, XGBoost CV R² = 0.912)
+
+- Built a **weighted ensemble model** (45% XGBoost, 35% Random Forest, 20% Gradient Boosting) with 5-fold cross-validation on n=36, anchored by real RBI Credit-Deposit Ratio data (Table 154, 2004–2025) parsed directly from uploaded government Excel files
+
+- Applied **K-Means clustering** on the 18-feature space to identify 4 distinct MSME ecosystem archetypes — Digitally Advanced, Infrastructure Laggard, Banking Accessible, Systemically Excluded — with PCA projection and SHAP-decomposed cluster profiles
+
+- Key finding: E-commerce integration → formal credit access Pearson r = 0.89 (p < 0.0001); GST compliance → credit access r = 0.87; Bihar and UP alone account for 68 lakh credit-invisible MSMEs — 18% of the national total
+
+[![View Repository](https://img.shields.io/badge/View_Repository-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/OmDadhe/msme-credit-invisibility-score) &nbsp; ![Python](https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=3776AB) ![XGBoost](https://img.shields.io/badge/XGBoost-0d1117?style=flat-square&logoColor=white) ![SHAP](https://img.shields.io/badge/SHAP-0d1117?style=flat-square&logoColor=white) ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-0d1117?style=flat-square&logo=scikitlearn&logoColor=F7931E) ![Pandas](https://img.shields.io/badge/Pandas-0d1117?style=flat-square&logo=pandas&logoColor=150458) ![Matplotlib](https://img.shields.io/badge/Matplotlib-0d1117?style=flat-square&logoColor=white) ![openpyxl](https://img.shields.io/badge/openpyxl-0d1117?style=flat-square&logoColor=white)
+
+---
 **Developing Explainable AI for Financial Time Series Forecasting**  
 
 End-to-end XAI framework on 10 years of synthesized AAPL-like stock data spanning data synthesis, deep learning, multi-model benchmarking, and SHAP-driven explainability with interactive dashboard delivery.
