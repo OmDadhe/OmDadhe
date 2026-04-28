@@ -168,7 +168,7 @@ End-to-end BA engagement on 99K+ eCommerce transactions across the full delivery
 ## Employer?
 
 > [!IMPORTANT]
-> - [Download my resume](https://drive.google.com/file/d/1oZGwDQPEyaKnn6JWu7LgjRXfVYQprYtm/view?usp=sharing)
+> - [Download my resume](https://drive.google.com/file/d/1sB3_uCFKb0RwxLqnHyi2g2aaSRndaw39/view?usp=sharing)
 
 <div align="center">
 
