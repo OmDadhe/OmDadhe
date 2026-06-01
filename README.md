@@ -5,7 +5,7 @@
 
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=500&size=25&duration=4500&pause=500&color=5A67D8&width=600&lines=Hello%2C+I'm+Om+Dadhe;Data+and+Business+Analyst." />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=500&size=25&duration=4500&pause=500&color=5A67D8&width=600&lines=Hello%2C+I'm+Om+Dadhe;Product+and+QA+Analyst." />
 </a>
 
 </div>
@@ -168,7 +168,7 @@ End-to-end BA engagement on 99K+ eCommerce transactions across the full delivery
 ## Employer?
 
 > [!IMPORTANT]
-> - [Download my resume](https://drive.google.com/file/d/1sB3_uCFKb0RwxLqnHyi2g2aaSRndaw39/view?usp=sharing)
+> - [Download my resume](https://drive.google.com/file/d/1_WxGrfcKgslO2zSRn_JVI6UDQ6micsOA/view?usp=sharing)
 
 <div align="center">
 
