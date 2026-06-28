@@ -135,7 +135,8 @@ End-to-end BA engagement on 99K+ eCommerce transactions across the full delivery
 
 | Role | Company | Period | Key Impact |
 |------|---------|--------|------------|
-|  Product Analyst Intern | MRM Global | Sept 2025 – Present | AI workflow automation, SQL-driven user insights, product roadmapping |
+|  Product and QA Analyst | Ticketgateway | May 2026 - Present | User Behaviour analysis, User Intent Identification, Project Management, RCA |
+|  Product Analyst Intern | MRM Global | Sept 2025 – Jan 2026 | AI workflow automation, SQL-driven user insights, product roadmapping |
 |  Backend Dev Intern | LoomyLabs | May – Jul 2025 | Node.js microservices, PostgreSQL optimization, AWS CI/CD |
 |  Software Engineer Intern | Eduaccess | Dec 2024 – Apr 2025 | ATS in Java, RESTful APIs, Agile delivery |
 
@@ -168,7 +169,7 @@ End-to-end BA engagement on 99K+ eCommerce transactions across the full delivery
 ## Employer?
 
 > [!IMPORTANT]
-> - [Download my resume](https://drive.google.com/file/d/1_WxGrfcKgslO2zSRn_JVI6UDQ6micsOA/view?usp=sharing)
+> - [Download my resume](https://drive.google.com/file/d/1_LHChj7iPfcapMBwCN4eE3SqgmOaRpns/view?usp=sharing)
 
 <div align="center">
 
